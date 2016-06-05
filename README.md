@@ -1,0 +1,79 @@
+『地域と家族の絆を深めるための家庭向けSNSの設計と開発』
+
+
+【開発環境】
+・eclipse
+・phpmyadmin
+
+・フレームワーク「bootstrap」
+
+【ファイル】
+・pbs12jk082db.sql：データベース
+・[pbs-deploy]：ソースコード
+  ・[area]：地域ファイル用フォルダ
+    ・[files]：地域に投稿された画像の保存場所
+    ・areaivent.php：地域イベント画面
+    ・areaivent_add.php：地域イベント投稿
+    ・areatop.php：地域トップ画面
+    ・areatop_p_comment.php：地域記事コメント
+    ・article.php:地域記事画面
+    ・article_comment.php：地域記事コメント
+    ・article_post.php：地域記事投稿
+    ・matching_add.php：ご近所さん申請（代表者）
+    ・matching_cancel.php：ご近所さん申請取消（代表者）
+    ・matching_list.php：ご近所さんリスト画面
+    ・matching_ok.php：ご近所さん承認（代表者）
+  ・[css]：bootstrap用cssフォルダ
+  ・[family]：家族ファイル用フォルダ
+    ・[files]：家庭内で投稿された画像の保存場所
+    ・[homeimg]：家庭プロフィール用画像の保存場所
+    ・[img2]：その他の画像保存場所
+    ・album.php：お茶の間画面
+    ・album_add.php：家族画像投稿
+    ・album_comment.php：家族画像コメント
+    ・alubm_list.php：家族画像アルバム
+    ・family_ivent.php：家族イベント
+    ・family_ivent_add.php：家族イベント投稿
+    ・family_prof_edit.php：家庭プロフィール編集画面
+    ・family_prof_edit_save.php：家庭プロフィール更新
+    ・familypage.php：家族詳細画面
+    ・housework_update.php：家事完了状況の更新
+    ・outimg.php：サムネイル出力用
+  ・[fonts]：bootstrap用fontsフォルダ
+  ・[img]：画像フォルダ
+  ・[inc]
+    ・db_inc.php：データベース接続
+    ・fotter_inc.php：フッター
+    ・header_inc.php：ヘッダー（ナビゲーションバー）
+  ・[js]：bootstrap用javascriptフォルダ
+  ・[mypage]：個人ファイル用フォルダ
+    ・[userimg]：個人プロフィール画像の保存場所
+    ・diary.php：個人日記
+    ・diary_add.php：日記の投稿
+    ・diary_comment.php：日記へのコメント
+    ・friend_add.php：フレンド申請
+    ・friend_cancel.php：フレンド申請取消
+    ・friend_list.php：フレンドリスト画面
+    ・friend_ok.php：フレンド承認
+    ・member_signup.php：家族メンバー追加画面（代表者）
+    ・member_signup_save.php：メンバー追加（代表者）
+    ・mypage.php：個人トップ画面
+    ・nowedit.php：現在状況編集画面
+    ・todo_update.php：TODOリスト完了状況の更新
+    ・user_prof.php：個人プロフィール編集画面
+    ・user_prof_save.php：個人プロフィール更新
+  ・article_deleate.php：記事の削除
+  ・class.php：TODOボタン用メソッド
+  ・function.php：各画面、各機能のメソッドライブラリ
+  ・index.php：家族トップ画面
+  ・log.txt：家族チャットログ用テキスト
+  ・login.php：ログイン画面
+  ・login_check.php：アカウント認証
+  ・logout.php：ログアウト
+  ・main.js：チャット用js
+  ・signup.php：新規登録画面
+  ・signup_confirm.php：新規登録確認画面
+  ・signup_save.php：新規登録
+  ・xmlhttprequestcreate.js：チャット用js
+
+  

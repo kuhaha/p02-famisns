@@ -42,17 +42,7 @@ if(!$rs5){
 }
 $row5 = mysql_fetch_array($rs5);
 $cnt2=$row5['COUNT'];
-if($cnt2==1){
-	$offmd="col-md-offset-3";
-	$md="col-md-6";
-	$mdd="col-md-4";
-	$smd="col-sm-4";
-}else if($cnt2==2){
-	$offmd="col-md-offset-3";
-	$md="col-md-6";
-	$mdd="col-md-4";
-	$smd="col-sm-4";
-}else if($cnt2==3){
+if($cnt2<=3){
 	$offmd="col-md-offset-3";
 	$md="col-md-6";
 	$mdd="col-md-4";
@@ -62,30 +52,17 @@ if($cnt2==1){
 	$md="col-md-8";
 	$mdd="col-md-3";
 	$smd="col-sm-3";
-}else if($cnt2==5){
-	$offmd="col-md-offset-0";
-	$md="col-md-12";
-	$mdd="col-md-2";
-	$smd="col-sm-2";
-}else if($cnt2==6){
-	$offmd="col-md-offset-0";
-	$md="col-md-12";
-	$mdd="col-md-2";
-	$smd="col-sm-2";
-}else if($cnt2==7){
+}else{
 	$offmd="col-md-offset-0";
 	$md="col-md-12";
 	$mdd="col-md-2";
 	$smd="col-sm-2";
 }
-
-
 ?>
 
 	<div class="page-header text-center">
     <h1>家族トップ</h1>
     </div>
-
 
 	<div class="<?= $offmd." ".$md ?>">
 	<div class="panel panel-primary">

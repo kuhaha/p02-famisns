@@ -11,8 +11,8 @@
             $contents = htmlspecialchars($_POST['data']);
             fwrite($fp, $contents);
             fclose($fp);
-       //console.log("書き込み完了しました。");
-       }
+        //console.log("書き込み完了しました。");
+        }
     }
 
     // ファイルを読み込み専用でオープンする

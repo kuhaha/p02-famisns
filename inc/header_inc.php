@@ -13,7 +13,8 @@ if (!defined('FAMISNS_ROOT')) define('FAMISNS_ROOT','/pbs/p02-famisns');
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="http://cdn.rawgit.com/Eonasdan/bootstrap-datetimepicker/v4.0.0/build/css/bootstrap-datetimepicker.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
+<script src="xmlhttprequestcreate.js" type="text/javascript"></script>
+<script src="main.js" type="text/javascript"></script>
 <!-- Not_flat_design
     <link rel="stylesheet" href="css/bootstrap-theme.min.css" media="screen">
 -->
